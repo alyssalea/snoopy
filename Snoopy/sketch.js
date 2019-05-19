@@ -82,3 +82,6 @@ strokeWeight(2)
 line(jxpos-6,jypos+25,jxpos+6,jypos+25)
 
 }
+function windowResized (){
+  resizeCanvas(windowWidth, windowHeight);
+}
